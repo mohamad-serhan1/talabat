@@ -1,4 +1,3 @@
-// next.config.js
 const withPWA = require('next-pwa')({
   dest: 'public',
   register: true,
@@ -7,9 +6,7 @@ const withPWA = require('next-pwa')({
 
 const nextConfig = {
   reactStrictMode: true,
-  experimental: {
-    serverActions: true,
-  },
+
 };
 
 module.exports = withPWA(nextConfig);
